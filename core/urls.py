@@ -4,4 +4,5 @@ import core.views as coreviews
 
 urlpatterns = [
     url(r'^$', coreviews.LandingView.as_view()),
+    url(r'location/$', coreviews.LocationListView.as_view()),
 ]
